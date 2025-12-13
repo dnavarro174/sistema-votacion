@@ -1,0 +1,22 @@
+  2025-02-27 17:15:57 App\Jobs\SendParticipantesCampanias ............ RUNNING
+     [C:497] ID#1de3: 22222222 DANI dnavarro174@gmail.com
+     [C:497] ID#2de3: 46532292 DANY dnavarro.pub@gmail.com
+     [C:497] ID#3de3: 46532293 DANY dnavarromanta@gmail.com
+
+CAMPAÑA 497 PROCESADO OK CAMPAÑA OK 
+  2025-02-27 17:15:57 App\Jobs\SendParticipantesCampanias ....... 52.36ms DONE
+  2025-02-27 17:16:03 App\Jobs\ProgramSendJob ........................ RUNNING
+Procesando history email campaña 497 
+  2025-02-27 17:16:03 App\Jobs\ProgramSendJob .................... 5.36ms DONE
+  2025-02-27 17:16:09 App\Jobs\SendHistoryEmails ..................... RUNNING
+
+ --> 3283838 DANI NAVARRO TEST Enviado a: dnavarro174@gmail.com 
+  2025-02-27 17:16:09 App\Jobs\SendHistoryEmails ............... 191.85ms FAIL
+  2025-02-27 17:16:12 App\Jobs\SendHistoryEmails ..................... RUNNING
+
+ --> 3283839 DANY NAVARRO MANTA Enviado a: dnavarro.pub@gmail.com 
+  2025-02-27 17:16:13 App\Jobs\SendHistoryEmails ................ 24.86ms FAIL
+  2025-02-27 17:16:16 App\Jobs\SendHistoryEmails ..................... RUNNING
+
+ --> 3283840 DANY NAVARRO MANTA Enviado a: dnavarromanta@gmail.com 
+  2025-02-27 17:16:16 App\Jobs\SendHistoryEmails ................ 25.14ms FAIL
